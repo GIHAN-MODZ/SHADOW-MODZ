@@ -6,6 +6,6 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
-ALIVE_IMG: process.env.ALIVE_IMG || "Img Url එකක් ඇඩ් කරන්න",
-ALIVE_MSG: process.env.ALIVE_MSG || "this bot is Alive now",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://imgur.com/a/oPT2sfB",
+ALIVE_MSG: process.env.ALIVE_MSG || "🪧this bot is Alive now",
 };
